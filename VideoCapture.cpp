@@ -28,7 +28,7 @@ CSerialComm serialComm;
 /** @function main */
 int main(int argc, const char** argv)
 {
-    face_cascade_name = "C:/opencv/sources/data/haarcascades/haarcascade_frontalface_default.xml";
+    face_cascade_name = "C:/opencv/sources/data/haarcascades/haarcascade_frontalface_default.xml"; // Change Your Directory Path
     if (!face_cascade.load(face_cascade_name)) { printf("--(!)Error loading face cascade\n"); return -1; };
 
     VideoCapture cam(0);
